@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { educationData } from "@/data/achievements";
 import { experienceData } from "@/data/experience";
 import { ANIMATION_VARIANTS } from "@/lib/constants";
 import { Calendar, MapPin, Building2, GraduationCap } from "lucide-react";
@@ -103,14 +104,16 @@ export function Career() {
           </h2>
           <div className="relative pl-8 border-l-2 border-border">
             <span className="absolute -left-[9px] top-7 w-4 h-4 bg-primary rounded-full border-4 border-background" aria-hidden="true" />
-            <article className="p-6 md:p-8 rounded-xl border bg-card hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-semibold">Bachelor’s Degree in Computer Science</h3>
-              <p className="text-primary font-medium mt-2">Technological University of Peru</p>
+            {educationData.map((education) => (
+            <article key={education.id} className="p-6 md:p-8 rounded-xl border bg-card hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-semibold">{education.degree}</h3>
+              <p className="text-primary font-medium mt-2">{education.institution}</p>
               <div className="flex flex-wrap gap-4 text-sm text-muted-foreground mt-4">
-                <span className="flex items-center gap-2"><Calendar className="h-4 w-4" aria-hidden="true" />2014 – 2018</span>
-                <span className="flex items-center gap-2"><MapPin className="h-4 w-4" aria-hidden="true" />Lima, Peru</span>
+                <span className="flex items-center gap-2"><Calendar className="h-4 w-4" aria-hidden="true" />{education.duration}</span>
+                <span className="flex items-center gap-2"><MapPin className="h-4 w-4" aria-hidden="true" />{education.location}</span>
               </div>
             </article>
+            ))}
           </div>
         </motion.section>
       </div>

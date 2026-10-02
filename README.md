@@ -58,3 +58,7 @@ The supplied hydration report contains attributes injected by a browser extensio
 ## Career page
 
 Navigation now points to `/career`, which includes work history followed by Education: Bachelor’s Degree in Computer Science, Technological University of Peru, 2014–2018, Lima, Peru. Previous `/experience` links redirect permanently to `/career`. The downloadable resume matches the supplied resume.
+
+## Latest resume alignment
+
+Career responsibilities now match the supplied Jorge Resume.pdf: Symphony AI (03/2023–05/2026, Palo Alto, CA, USA), Software Enterprise Services (07/2020–02/2023), and TeamSoft SAC (07/2018–04/2020). TeamSoft is reflected in the About and retail project descriptions. RCS Tools remains the project name from the resume. Education uses shared data, and the resume download contains the latest PDF.

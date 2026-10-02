@@ -95,8 +95,8 @@ export const projects: Project[] = [
   {
     "id": "rcs-tools",
     "title": "RCS Tools & Physical Inventory",
-    "description": "Mobile retail tools with real-time RMS.NET data access.",
-    "longDescription": "Enhanced RCS Tools, released the Physical Inventory module, improved its interface, and added an Employee PIN module.",
+    "description": "Mobile retail functionality developed at TeamSoft SAC, with real-time RMS.NET data access.",
+    "longDescription": "At TeamSoft SAC, enhanced RCS Tools, released the Physical Inventory module, improved its interface, and added an Employee PIN module.",
     "technologies": [
       "RMS.NET",
       "Inventory Management"
@@ -112,8 +112,8 @@ export const projects: Project[] = [
   {
     "id": "retail-pos",
     "title": "Retail POS & Electronic Invoicing",
-    "description": "Retail sales and electronic billing for Belcorp.",
-    "longDescription": "Supported RMS/POS systems and implemented electronic invoicing for Belcorp’s retail sales operations.",
+    "description": "Retail sales and electronic billing for Belcorp, developed at TeamSoft SAC.",
+    "longDescription": "At TeamSoft SAC, supported RMS/POS systems and implemented electronic invoicing for Belcorp’s retail sales operations.",
     "technologies": [
       "RMS/POS",
       "Electronic Invoicing"
