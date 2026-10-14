@@ -16,7 +16,7 @@ export const projects: Project[] = [
     "id": "enterprise-ai",
     "title": "Enterprise AI & Agent Workflows",
     "description": "Enterprise AI services and applications at Symphony AI.",
-    "longDescription": "Contributed to Eureka AI and industry-specific applications combining predictive intelligence, generative AI, knowledge graphs, and orchestration.",
+    "longDescription": "Developed reusable services for Eureka AI, integrating Python APIs, LLMs, knowledge graphs, model orchestration, and intelligent agent workflows.",
     "technologies": [
       "Python",
       "RESTful APIs",
@@ -40,11 +40,12 @@ export const projects: Project[] = [
     "id": "payroll",
     "title": "Enterprise Payroll Management",
     "description": "Configurable payroll software developed at SES.",
-    "longDescription": "Developed a payroll-management system supporting secure processing, employee benefits, financial reporting, and evolving business requirements.",
+    "longDescription": "Delivered a payroll-management system using Angular, .NET, and SQL Server, supporting secure processing, automated calculations, and financial reporting.",
     "technologies": [
       "Angular",
       ".NET/C#",
-      "ASP.NET Web API"
+      "ASP.NET Web API",
+      "SQL Server"
     ],
     "features": [
       "Configurable payroll functionality",
@@ -95,8 +96,8 @@ export const projects: Project[] = [
   {
     "id": "rcs-tools",
     "title": "RCS Tools & Physical Inventory",
-    "description": "Mobile retail functionality developed at TeamSoft SAC, with real-time RMS.NET data access.",
-    "longDescription": "At TeamSoft SAC, enhanced RCS Tools, released the Physical Inventory module, improved its interface, and added an Employee PIN module.",
+    "description": "Mobile retail tools with real-time RMS.NET data access.",
+    "longDescription": "Enhanced RCS Tools, released the Physical Inventory module, improved its interface, and added an Employee PIN module.",
     "technologies": [
       "RMS.NET",
       "Inventory Management"
@@ -112,8 +113,8 @@ export const projects: Project[] = [
   {
     "id": "retail-pos",
     "title": "Retail POS & Electronic Invoicing",
-    "description": "Retail sales and electronic billing for Belcorp, developed at TeamSoft SAC.",
-    "longDescription": "At TeamSoft SAC, supported RMS/POS systems and implemented electronic invoicing for Belcorp’s retail sales operations.",
+    "description": "Retail sales and electronic billing for Belcorp.",
+    "longDescription": "Supported RMS/POS systems and implemented electronic invoicing for Belcorp’s retail sales operations.",
     "technologies": [
       "RMS/POS",
       "Electronic Invoicing"

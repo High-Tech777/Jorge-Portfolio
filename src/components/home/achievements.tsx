@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const achievements = [
  { icon: Award, metric: "8+ years", title: "Full Stack & AI Engineering", description: "Enterprise applications and AI-enabled solutions across AI, fintech, and retail.", url: "/about", color: "rgba(139,92,246,0.15)" },
- { icon: Award, metric: "8 engineers", title: "Engineering Leadership", description: "Led a development pod, coordinated technical execution, enforced standards, and reviewed code.", url: "/career", color: "rgba(139,92,246,0.15)" },
+ { icon: Award, metric: "Teamwork", title: "Engineering Leadership", description: "Led a small engineering team, coordinated technical execution, enforced standards, and reviewed code.", url: "/career", color: "rgba(139,92,246,0.15)" },
  { icon: Award, metric: "Eureka AI", title: "Enterprise AI Platform", description: "Contributed to industry-specific models, AI agents, data pipelines, and orchestration capabilities.", url: "/career", color: "rgba(139,92,246,0.15)" },
  { icon: Award, metric: "2014 - 2018", title: "Computer Science Degree", description: "Bachelor\u2019s degree from the Technological University of Peru in Lima, Peru.", url: "/about", color: "rgba(139,92,246,0.15)" }
 ];

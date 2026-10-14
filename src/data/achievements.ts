@@ -19,7 +19,7 @@ export const achievementsData: Achievement[] = [
     "id": "engineering-leadership",
     "title": "Engineering Leadership",
     "organization": "Symphony AI",
-    "description": "Led a development pod of 8 engineers delivering enterprise AI software.",
+    "description": "Led a small development team delivering enterprise AI software.",
     "impact": [
       "Coordinated technical execution across development sprints",
       "Enforced coding standards and performed code reviews",

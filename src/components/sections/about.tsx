@@ -44,7 +44,7 @@ export function About() {
               <p>I am Jorge Joshua Neyra Caldas, a Full Stack & AI Engineer based in Lima, Peru, with 8+ years of experience developing enterprise applications and AI-enabled solutions.</p>
               <p>I build across frontend and backend systems using Python, RESTful APIs, Angular, .NET/C#, ASP.NET, and modern JavaScript frameworks. My work spans AI, financial services, and retail.</p>
               <p>At Symphony AI, I built enterprise backend services and contributed to Eureka AI, integrating LLMs, predictive models, generative AI, knowledge graphs, and agent workflows.</p>
-              <p>I led a development pod of 8 engineers, coordinated technical delivery, reviewed code, and supported reliable production releases through automated testing and CI/CD.</p>
+              <p>I led a small engineering team, coordinated technical delivery, reviewed code, and supported reliable production releases through automated testing and CI/CD.</p>
               <p>Earlier, I delivered payroll and document-signing applications at SES and retail POS, electronic invoicing, and mobile inventory functionality at TeamSoft SAC.</p>
             </div>
 
